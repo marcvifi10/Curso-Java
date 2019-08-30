@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Documento sin título</title>
+		<style>
+
+			body
+			{
+				background-color:#FFC;
+			}
+
+			table
+			{
+				background:#FF6;
+				padding:10px;
+				border:solid 2px #FF0000;
+			}
+
+			td
+			{
+				padding:5px 0;
+			}
+
+		</style>
+	</head>
+	<body>
+		<h1 style="text-align:center">Login</h1>
+		<form action="comprueba_Usuario.jsp" method="get">
+			<table width="25%">
+				<tr>
+					<td width="13%">
+						<label for="usuario">Usuario: </label>
+					</td>
+					<td width="87%">
+						<input type="text" name="usuario" id="usuario">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="password">Password:  </label>
+					</td>
+					<td>
+						<input type="text" name="password" id="password">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="submit" value="Entrar">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

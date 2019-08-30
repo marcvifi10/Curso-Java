@@ -1,0 +1,42 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication27;
+
+/**
+ *
+ * @author marcv
+ */
+public class JavaApplication27 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        Empleado e1 = new Empleado("Marc");
+        
+        e1.cambiaSeccion("Informática");
+        
+        e1.cambiaNombre("mmmm");
+       
+        System.out.println(e1.getDatos());
+        
+        //Empleado.id++;
+        
+        Empleado e2 = new Empleado("Marc");
+        
+        e2.cambiaSeccion("Informática");
+        
+        e2.cambiaNombre("AAA");
+       
+        System.out.println(e2.getDatos());
+        
+        Jefatura jefe = new Jefatura("Marc",55000,2006,9,25);
+        
+        jefe.estableceIncentivo(2000.00);
+    }
+    
+}

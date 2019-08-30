@@ -1,0 +1,3 @@
+javaapplication48.LaminaSpinner
+javaapplication48.MarcoSpinner
+javaapplication48.FrameSpinner
